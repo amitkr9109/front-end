@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp</title>
+    <link rel="shortcut icon" href="https://cdn2.iconfinder.com/data/icons/weather-flat-14/64/weather02-512.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.4.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <div class="cardcontainer">
+        <div class="search">
+            <input type="text" placeholder="enter city name">
+            <button><i class="ri-search-line"></i></button>
+        </div>
+        <div class="weather">
+            <div class="hidden">
+                <img src="" class="weather-icon">
+                <h3 class="Skyname"></h3>
+                <h1 class="temperature"></h1>
+                <h2 class="city"></h2>
+            </div>
+            <div class="details">
+                <div class="humidity-image">
+                    <img src="https://cdn-icons-png.flaticon.com/128/5664/5664993.png" alt="">
+                    <div class="paragraph">
+                        <p class="humidity"></p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="wind-image">
+                    <img src="https://cdn-icons-png.flaticon.com/128/824/824695.png" alt="">
+                    <div class="paragraph">
+                        <p class="wind"></p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
